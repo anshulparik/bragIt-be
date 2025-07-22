@@ -6,7 +6,7 @@ const checkFileType = (filetypes, file, cb) => {
   if (extname && mimetype) {
     return cb(null, true);
   } else {
-    return cb("Invalid file type!");
+    return cb("File type is invalid!");
   }
 };
 
